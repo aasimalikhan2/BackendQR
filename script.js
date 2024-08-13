@@ -11,7 +11,7 @@ async function handleSubmit() {
     }
 
     try {
-        const response = await fetch('https://e5bcb5a7-485d-4dcd-89e8-1c4f361ad743-00-2w2c6l4hr6pnf.sisko.replit.dev/generate-qr', {
+        const response = await fetch('https://backendqr.onrender.com/generate-qr', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
